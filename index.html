@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Acorde aleatorio v1</title>
+</head>
+<body>
+    <p>Tonalidad: <a id="tonality">C</a></p>
+    <div id="chord_div">
+       <!--<p>Chord</p>-->
+        <p>Acorde: <a id="chord_note">I</a>
+        <a id="chord_type">7</a></p>
+        <button onclick="make_chord()">Acorde</button>
+        <button onclick="make_tonality()">Tonalidad</button>
+    </div>
+    <div id="instructions">
+        <p>"Acorde" => genera un grado de la escala y una extensión</p>
+        <p>"Tonalidad" => cambia la tonalidad</p>
+    </div>
+    
+</body>
+</html>

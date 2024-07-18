@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+    color: #aaa;
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+    margin: 0;
+}
+
+#instructions {
+    font-size: medium;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    color: white;
+}
